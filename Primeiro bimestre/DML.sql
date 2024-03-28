@@ -36,3 +36,11 @@ INSERT INTO itens_pedido (id_pedido, id_produto, quantidade, valor_unitario, val
 (2, 2, 2, 59.99, 119.98),
 (3, 4, 1, 39.99, 39.99),
 (4, 6, 3, 49.99, 149.97);
+
+UPDATE clientes SET celular = '99998888' WHERE id_cliente = 1;
+UPDATE produtos SET quantidade_estoque = 95 WHERE id_produto = 1;
+UPDATE pedidos SET valor_total = 89.99 WHERE id_pedido = 3;
+UPDATE pedidos SET data_estimada_entrega = '2024-03-15' WHERE id_pedido = 5;
+
+DELETE FROM clientes WHERE id_cliente = 7;
+DELETE FROM pedidos WHERE id_pedidos = 8;
