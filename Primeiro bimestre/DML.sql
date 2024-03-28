@@ -1,27 +1,27 @@
-Use Tabela;
+oUse Tabela;
 INSERT INTO clientes (nome, endereco, email, celular, data_nascimento) VALUES
-('Roberto andrade', 'Rua A, 123', 'robertoandrade@email.com', '119867343', '1990-05-15'),
-('Maria Santos', 'Avenida B, 456', 'maria@email.com', '119860848', '1985-08-20'),
-('Carlos Oliveira', 'Rua C, 789', 'carlos@email.com', '119764453', '1982-12-10'),
-('Ana Souza', 'Rua D, 321', 'ana@email.com', '11804623', '1978-03-25'),
-('Pedro Almeida', 'Avenida E, 654', 'pedro@email.com', '119838016', '1995-07-30'),
-('Mariana Lima', 'Rua F, 987', 'mariana@email.com', '11087618', '1998-09-12'),
-('Lucas Pereira', 'Avenida G, 147', 'lucas@email.com', '1105927', '1989-11-05'),
-('Fernanda Costa', 'Rua H, 258', 'fernanda@email.com', '11207462', '1980-02-18'),
-('Gabriel Santos', 'Avenida I, 369', 'gabriel@email.com', '110967825', '1975-06-22'),
-('Rafaela Oliveira', 'Rua J, 951', 'rafaela@email.com', '110965483', '1993-04-08');
+('Roberto andrade', 'Rua a, 123', 'robertoandrade@email.com', '119867343', '1990-05-15'),
+('Julia Bolos', 'Avenida B, 456', 'Julia@email.com', '119860848', '1985-08-20'),
+('Adolfo hotdog', 'Rua C, 789', 'Adolfo@email.com', '119764453', '1982-12-10'),
+('Ana banana', 'Rua D, 321', 'ana@email.com', '11804623', '1978-03-25'),
+('Saulo chinelinho', 'Avenida E, 654', 'saulo@email.com', '119838016', '1995-07-30'),
+('Mariana amiga da ana', 'Rua F, 987', 'mariana@email.com', '11087618', '1998-09-12'),
+('Pedro bololo', 'Avenida G, 147', 'pedro@email.com', '1105927', '1989-11-05'),
+('Roberta ferdinanda', 'Rua H, 258', 'roberta@email.com', '11207462', '1980-02-18'),
+('Vitor rizzoto', 'Avenida I, 369', 'vitor@email.com', '110967825', '1975-06-22'),
+('Rafael', 'Rua J, 951', 'rafael@email.com', '110965483', '1993-04-08');
 
 INSERT INTO produtos (nome, preco, descricao, quantidade_estoque) VALUES
-('Camiseta', 29.99, 'Camiseta de algodão branca', 100),
-('Calça Jeans', 59.99, 'Calça jeans azul', 50),
-('Tênis', 99.99, 'Tênis esportivo preto', 80),
-('Bolsa', 39.99, 'Bolsa feminina de couro marrom', 30),
-('Boné', 19.99, 'Boné de baseball preto', 120),
-('Óculos de Sol', 49.99, 'Óculos de sol aviador', 60),
-('Relógio', 79.99, 'Relógio de pulso analógico', 40),
-('Mochila', 69.99, 'Mochila escolar preta', 70),
-('Chapéu', 29.99, 'Chapéu de palha', 90),
-('Sapato Social', 89.99, 'Sapato social masculino', 20);
+('Camiseta de anime', 29.99, 'Camiseta com estampa de anime', 100),
+('Calça cargo', 59.99, 'Calça cargo preta', 50),
+('air max plus', 99.99, 'Tenis nike preto', 80),
+('mochila fora aventureira', 39.99, 'mochila com tematica da dora', 30),
+('Boné da nike', 19.99, 'Boné da nike preto', 120),
+('Luva ', 49.99, 'Luva preta', 60),
+('Rollex', 79.99, 'relogio de pessoa rica', 40),
+('bolsinha', 69.99, 'bolsa para acessorios feminino', 70),
+('Terno', 29.99, 'Terno preto', 90),
+('Anel', 89.99, 'Anel masculino', 20);
 
 INSERT INTO pedidos (id_cliente, data_compra, valor_total, data_estimada_entrega) VALUES
 (1, '2024-03-01', 99.99, '2024-03-08'),
